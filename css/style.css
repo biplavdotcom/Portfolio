@@ -17,13 +17,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nav-bar {
-  height: 13vh;
+  height: 11vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #333;
   color: #fff;
-  padding: 1em;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -108,6 +108,7 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .section__text__p2 {
@@ -119,6 +120,7 @@ section {
   font-size: 3rem;
   text-align: center;
   opacity: 0.92;
+  margin-top: 0;
   /* margin-bottom: 2rem; */
 }
 
@@ -230,6 +232,61 @@ footer {
   padding: 1em;
   text-align: center;
   clear: both;
+}
+
+#about-me,
+#skills {
+  padding: 2rem 5rem;
+  height: 50%;
+}
+
+#about,
+#myskills {
+  padding-left: 3rem;
+}
+.profileNdesc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-img {
+  padding-left: 3rem;
+}
+
+.about-img > img {
+  width: 80%;
+  border-radius: 15px;
+}
+
+.about-desc {
+  text-align: justify;
+}
+
+#skills {
+  height: 40vh;
+}
+
+.skill-items {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2.5rem;
+}
+
+.item {
+  display: inline-block;
+  width: 5%;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: aliceblue;
+  box-shadow: 10px 12px 1px 1px #00000060;
+}
+.item > img {
+  width: 100%;
+}
+
+.hovered {
+  transform: scale(1.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Optional: Responsive layout adjustments */
